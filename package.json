@@ -1,6 +1,6 @@
 {
   "name": "jotd",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Joke of the day - Display a random joke",
   "main": "index.js",
   "keywords": [
@@ -12,7 +12,18 @@
   "bin": {
     "jotd": "index.js"
   },
-  "author": "Mmontsheng Maoto <mmontshengmaoto@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mmontsheng/jotd.git"
+  },
+  "author": {
+    "name": "Mmontsheng Maoto",
+    "email": "mmontshengmaoto@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Mmontsheng/jotd/issues"
+  },
+  "homepage": "https://github.com/Mmontsheng/jotd#readme",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
