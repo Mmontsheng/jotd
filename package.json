@@ -1,6 +1,6 @@
 {
   "name": "jotd",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Joke of the day - Display a random joke",
   "main": "index.js",
   "keywords": [

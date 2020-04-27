@@ -10,8 +10,9 @@ module.exports = () => {
       if(!hasInternet) {
         fileHandler.get()
           .then((jokes) => {
-            const randomNo =  Math.floor((Math.random() * jokes.length-1));    
-            resolve(jokes[randomNo]);
+            const randomNo =  Math.floor((Math.random() * jokes.length-1));
+            const { joke } =  jokes[randomNo];    
+            resolve(joke);
           })
           .catch((err) => reject(err));
       } else {
